@@ -12,6 +12,8 @@
 		1813349023282A8200A488CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1813348E23282A8200A488CA /* Main.storyboard */; };
 		1813349223282A8500A488CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1813349123282A8500A488CA /* Assets.xcassets */; };
 		1813349523282A8500A488CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1813349323282A8500A488CA /* LaunchScreen.storyboard */; };
+		18C88E7323301EE400528F71 /* concenApp120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88E7123301EE300528F71 /* concenApp120x120.png */; };
+		18C88E7423301EE400528F71 /* concentration180x1801.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88E7223301EE400528F71 /* concentration180x1801.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1813349123282A8500A488CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1813349423282A8500A488CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1813349623282A8500A488CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C88E7123301EE300528F71 /* concenApp120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concenApp120x120.png; sourceTree = "<group>"; };
+		18C88E7223301EE400528F71 /* concentration180x1801.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concentration180x1801.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 			children = (
 				1813348A23282A8200A488CA /* AppDelegate.swift */,
 				1813349123282A8500A488CA /* Assets.xcassets */,
+				18C88E7223301EE400528F71 /* concentration180x1801.png */,
+				18C88E7123301EE300528F71 /* concenApp120x120.png */,
 				1813349323282A8500A488CA /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -130,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C88E7323301EE400528F71 /* concenApp120x120.png in Resources */,
 				1813349523282A8500A488CA /* LaunchScreen.storyboard in Resources */,
+				18C88E7423301EE400528F71 /* concentration180x1801.png in Resources */,
 				1813349223282A8500A488CA /* Assets.xcassets in Resources */,
 				1813349023282A8200A488CA /* Main.storyboard in Resources */,
 			);
