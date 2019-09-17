@@ -14,6 +14,8 @@
 		1813349523282A8500A488CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1813349323282A8500A488CA /* LaunchScreen.storyboard */; };
 		18C88E7323301EE400528F71 /* concenApp120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88E7123301EE300528F71 /* concenApp120x120.png */; };
 		18C88E7423301EE400528F71 /* concentration180x1801.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88E7223301EE400528F71 /* concentration180x1801.png */; };
+		18C88E7623309FD500528F71 /* ConcentrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C88E7523309FD500528F71 /* ConcentrationModel.swift */; };
+		18C88E782330A0E300528F71 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C88E772330A0E300528F71 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1813349623282A8500A488CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C88E7123301EE300528F71 /* concenApp120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concenApp120x120.png; sourceTree = "<group>"; };
 		18C88E7223301EE400528F71 /* concentration180x1801.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concentration180x1801.png; sourceTree = "<group>"; };
+		18C88E7523309FD500528F71 /* ConcentrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationModel.swift; sourceTree = "<group>"; };
+		18C88E772330A0E300528F71 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		1813348923282A8200A488CA /* ConcentrationRC */ = {
 			isa = PBXGroup;
 			children = (
+				18C88E7523309FD500528F71 /* ConcentrationModel.swift */,
+				18C88E772330A0E300528F71 /* Card.swift */,
 				1813348C23282A8200A488CA /* ViewController.swift */,
 				1813348E23282A8200A488CA /* Main.storyboard */,
 				1813349C2328A54700A488CA /* Supporting Files */,
@@ -152,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1813348D23282A8200A488CA /* ViewController.swift in Sources */,
+				18C88E7623309FD500528F71 /* ConcentrationModel.swift in Sources */,
 				1813348B23282A8200A488CA /* AppDelegate.swift in Sources */,
+				18C88E782330A0E300528F71 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
